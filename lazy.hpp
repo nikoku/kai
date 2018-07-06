@@ -24,7 +24,7 @@ namespace kai
     template<typename T>
     class lazy_base
     {
-        static_assert(!std::is_reference<T>::value, "kai::lazy_arg argument type must not be reference");
+        static_assert(!std::is_reference<T>::value, "kai::lazy_arg argument type must not be reference!");
         public:
         auto& operator*()const noexcept
         {
