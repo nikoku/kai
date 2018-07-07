@@ -19,7 +19,7 @@
 namespace kai
 {
 	/**
-	* @brief lazy_argの基底クラス。ユーザーコードから明示的に使用しない
+	* @brief lazy_argの基底クラス。ユーザーコードから明示的に使用しないクラス
 	*/
     template<typename T>
     class lazy_base
